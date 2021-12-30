@@ -77,3 +77,35 @@
 // const func3 = (num1, num2) => num1 + num2
 // console.log(func3(10, 50))
 
+/**
+ * 分割代入
+ * ruby -> 多重代入
+ * python -> シーケンスのアンパック
+ * シーケンス: 複数の要素をまとめて扱える型（配列）
+ */
+// const myProfile = {
+//   name: "山田",
+//   age: 30
+// }
+
+// const { age, name } = myProfile
+// console.log(name)
+// // console.log(age)
+
+/**
+ * スプレッド構文
+ * Pythonだと「アンパック」
+ */
+// const arr1 = [1, 2]
+// console.log(...arr1)
+
+// コピーは参照渡しに気を付ける
+// スプレッド構文でコピーする
+
+/**
+ * 三項演算子
+ */
+// const num = 1300
+// console.log(num.toLocaleString())
+// const formattedNum = typeof (num) === "number" ? num.toLocaleString() : '数値を入力してください'
+// console.log(formattedNum)
